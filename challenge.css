@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.image{
+    display: flex;
+    height: 57vw;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    letter-spacing: 5px;
+    font-size:  3rem;
+    /* background-position: center; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(69, 66, 61, 0.5), rgba(69, 66, 61, 0.5)), url(https://s3.us-west-1.amazonaws.com/savoriteapp.us/merchants/covers/4IFW2n9xBfc8oFXzbwsnqcha7APdoDMXYuaBbrri.png);
+}
+
+.takeout{
+    background-color: #0ACEBC;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    border-radius: 25px 25px 0px 0px;
+    height: 8vh;
+    width: 100%;
+    z-index: 1;
+    margin-top: -80px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.layout {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.third {
+    padding-top: 50px;
+    background-color: #ffffff;
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(124, 122, 122);
+    border-radius: 25px 25px 0px 0px;
+    height: 75%;
+    width: 100%;
+    z-index: 2;
+    margin-top: -40px;
+}
+
+h1, h2 {
+    color: #0ACEBC;
+    text-align: center;
+}
+
+button {
+    background-color: #0ACEBC;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 1px 1px 10px black;
+    justify-content: center;
+    text-align: center;
+}
+
+hr {
+    justify-content: center;
+    color: rgb(124, 122, 122);
+}
+
+.address {
+    text-align: center;
+    color: rgb(124, 122, 122);
+
+}
+
+.name {
+    text-align: center;
+    color: rgb(124, 122, 122);
+
+}
+
+.phone {
+    text-align: center;
+    color: rgb(124, 122, 122);
+
+}
+
+.date {
+    text-align: center;
+    color: rgb(124, 122, 122);
+
+}
+
+.time {
+    text-align: center;
+    color: rgb(124, 122, 122);
+
+}
+
+.party {
+    text-align: center;
+    color: rgb(124, 122, 122);
+
+}
+
+strong {
+    color: black;
+}
+
+li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type:disc;
+    display: list-item;
+    margin-left: 25%;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.fa {
+    z-index: 3;
+    margin-top: -40px;
+    padding-top: 50px;
+    position: absolute;
+    margin-left: 10px;
+}
